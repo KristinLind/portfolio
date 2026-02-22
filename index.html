@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kristin Lind | Design Portfolio</title>
+    <meta name="description"
+        content="Design portfolio of Kristin Lind – web and visual design with a focus on layout, typography, and visual hierarchy.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1f2933;
+            --muted: #6b7280;
+            --accent: #19535F;
+            --border: #e5e7eb;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        header {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 1.5rem 2.5rem;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            max-width: 600px;
+            color: var(--muted);
+            font-size: 1.05rem;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1.5rem 4rem;
+        }
+
+        .project {
+            border-top: 1px solid var(--border);
+            padding: 2.5rem 0;
+        }
+
+        .project:first-of-type {
+            border-top: none;
+            padding-top: 1.5rem;
+        }
+
+        .project h2 {
+            font-size: 1.4rem;
+            font-weight: 500;
+            margin-bottom: 0.25rem;
+        }
+
+        .project a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        .meta {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .project p {
+            max-width: 650px;
+            margin-bottom: 0.75rem;
+        }
+
+        ul {
+            margin: 0.5rem 0 0;
+            padding-left: 1.25rem;
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 2rem 1.5rem;
+            text-align: center;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Kristin Lind</h1>
+        <p>
+            Web and visual designer with a strong focus on layout, typography, and visual hierarchy.
+            My work emphasizes clarity, balance, and readability across responsive web experiences.
+        </p>
+    </header>
+
+    <main>
+
+        <section class="project">
+            <h2>Community Website – Final Project</h2>
+            <div class="meta">Web Design • Layout • Visual Hierarchy</div>
+            <p>
+                A community-focused website designed to highlight local organizations, events, and resources.
+            </p>
+            <ul>
+                <li>Structured layouts using cards and grid systems</li>
+                <li>Clear typography hierarchy for readability</li>
+                <li>Balanced use of imagery and text</li>
+                <li>Designed for clarity, accessibility, and consistency</li>
+            </ul>
+            <p><a href="https://kristinlind.github.io/wdd231/finalproject/" target="_blank">View Project →</a></p>
+        </section>
+
+        <section class="project">
+            <h2>Beyond Travel – Brand Website</h2>
+            <div class="meta">Brand Design • Visual Storytelling</div>
+            <p>
+                A visually driven homepage design for a travel brand, emphasizing storytelling and user engagement.
+            </p>
+            <ul>
+                <li>Visual hierarchy through spacing and sectioning</li>
+                <li>Typography paired with strong imagery</li>
+                <li>Card-based layouts to organize content</li>
+                <li>Focus on aesthetic balance and flow</li>
+            </ul>
+            <p><a href="https://comfy-eclair-bf46f6.netlify.app/index.html" target="_blank">View Project →</a></p>
+        </section>
+
+        <section class="project">
+            <h2>Responsive Place Website</h2>
+            <div class="meta">Responsive Design • Information Layout</div>
+            <p>
+                A responsive informational website showcasing a geographic location with structured data and visuals.
+            </p>
+            <ul>
+                <li>Responsive layout across screen sizes</li>
+                <li>Clear content grouping and visual rhythm</li>
+                <li>Emphasis on readability and spacing</li>
+                <li>Designed with accessibility in mind</li>
+            </ul>
+            <p><a href="https://kristinlind.github.io/wdd131/project/index.html" target="_blank">View Project →</a></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Contact: <a href="mailto:kristin.lind@comcast.net">kristin.lind@comcast.net</a>
+            • <a href="https://linkedin.com/in/kristin-lind-0281572ba/" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
